@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seattle University Website Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header class="su-header">
+        <div class="container">
+            
+            <div class="d-flex justify-content-end align-items-center mb-2">
+                <div class="utility-links d-flex align-items-center">
+                    <a href="#">Email</a>
+                    <a href="#">MySU</a>
+                    <a href="#">Angel</a>
+                    <a href="#">SU Online</a>
+                    <a href="#">Directory</a>
+                    <a href="#">Campus Map</a>
+                </div>
+                <div class="social-icons ms-3">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="su-logo">Seattle University</h1>
+                <form class="d-flex search-box">
+                    <input class="form-control" type="search" placeholder="Search Seattle University" aria-label="Search">
+                    <button class="btn" type="submit">Search</button>
+                </form>
+            </div>
+
+            <nav class="main-nav d-flex justify-content-between w-100">
+                <a href="#">About</a>
+                <a href="#">Admissions</a>
+                <a href="#">Academics</a>
+                <a href="#">Student Life</a>
+                <a href="#">Jesuit Tradition</a>
+                <a href="#">Athletics</a>
+                <a href="#">Faculty and Staff</a>
+                <a href="#">Give</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section id="su-carousel" class="position-relative">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators-custom d-flex justify-content-center">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">2</button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">3</button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">4</button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../media/homepageCenterpieceTemplate_STM-final.jpeg" class="d-block w-100" alt="Seattle U Carousel 1">
+                        <div class="carousel-caption d-none d-md-block text-start p-0">
+                            <div class="carousel-caption-custom p-4 ms-5 mt-5 bg-white text-dark d-inline-block rounded shadow">
+                                <h1 class="display-4 fw-bold">SPRING ON CAMPUS</h1>
+                                <p>Learn about our Campus Gardens &gt;&gt;</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="su-info-grid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="su-student-tabs" class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Future Students</a>
+                        <a href="#" class="list-group-item list-group-item-action">Current Students</a>
+                        <a href="#" class="list-group-item list-group-item-action">Parents & Families</a>
+                        <a href="#" class="list-group-item list-group-item-action">Alumni</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="su-new-students" class="card border-0">
+                        <img src="../media/students.jpg" class="card-img-top" alt="New SU Students">
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-uppercase fw-bold">New SU Students</h5>
+                            <p class="card-text text-muted">A text list description or placeholder for description.</p>
+                            <p class="card-text text-muted small">Learn More &gt;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="su-upcoming-events" class="card border-0 mb-4">
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-uppercase fw-bold">Upcoming Events</h5>
+                            <ul class="list-unstyled text-muted small">
+                                <li>Thursday, May 17, 8:00 AM</li>
+                                <li>Gifts Galore!</li>
+                                <li>Saturday, May 19, 10:00 AM</li>
+                                <li>Campus Gardens Tour</li>
+                                <li>Wednesday, May 23, 12:00 PM</li>
+                                <li>Career Services Event</li>
+                            </ul>
+                            <p class="card-text text-muted small">Campus Calendar &gt;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="su-apply" class="card border-0">
+                        <div class="card-body px-0">
+                            <h5 class="card-title text-uppercase fw-bold">Apply To SU</h5>
+                            <ul class="list-unstyled text-muted small">
+                                <li>Request Information</li>
+                                <li>Apply Now</li>
+                                <li>Visit Seattle University</li>
+                                <li>Meet Your Admissions Counselor</li>
+                                <li>International Students</li>
+                                <li>Accepted Students</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="su-about">
+        <div class="sketch-overlay"></div>
+        <div class="container content">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h2 class="text-maroon fw-bold mb-4">About Seattle University</h2>
+                    <p class="text-muted mb-4">Seattle University, founded in 1891, is a Jesuit Catholic university located on 50 acres on Seattle's Capitol Hill. We provide a rigorous, challenging education that transforms students from diverse backgrounds into leaders who values, knowledge and skills necessary for the modern world.</p>
+                    <p class="text-muted mb-4">One of just over 300 schools to rank in the top-tier of leading universities and one that offers range of undergraduate and master's degrees in the West. This university has had a rank for more than a decade.</p>
+                    <a href="#" class="text-muted small">See full ranking &gt;&gt;</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="https://placehold.co/150x150/ccc/888?text=BEST+COLLEGES" alt="BEST COLLEGES Ranking" class="img-fluid mb-2">
+                    <p class="text-muted small">Ranked #1 in the West</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="su-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 mb-4">
+                    <h6>Admissions</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">Apply Now</a>
+                        <a class="nav-link" href="#">Undergraduate Admissions</a>
+                        <a class="nav-link" href="#">Graduate Admissions</a>
+                        <a class="nav-link" href="#">Online Admissions</a>
+                        <a class="nav-link" href="#">Core Curriculum</a>
+                        <a class="nav-link" href="#">Tuition and Fees</a>
+                    </nav>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6>About SU</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">About Seattle University</a>
+                        <a class="nav-link" href="#">Seattle University Facts</a>
+                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="#">History</a>
+                        <a class="nav-link" href="#">Youth Systems</a>
+                        <a class="nav-link" href="#">Global Learning</a>
+                        <a class="nav-link" href="#">Map & Directions</a>
+                    </nav>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6>Academics</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">Undergraduate Programs</a>
+                        <a class="nav-link" href="#">Graduate Programs</a>
+                        <a class="nav-link" href="#">School of Law</a>
+                        <a class="nav-link" href="#">Online Programs</a>
+                        <a class="nav-link" href="#">Academic Advising</a>
+                        <a class="nav-link" href="#">Library</a>
+                    </nav>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6>Campus</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">Campus Map and Directions</a>
+                        <a class="nav-link" href="#">Centers and Institutes</a>
+                        <a class="nav-link" href="#">Sustainability</a>
+                        <a class="nav-link" href="#">Event Scheduling</a>
+                        <a class="nav-link" href="#">Emergency Management</a>
+                    </nav>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6>Jesuit Tradition</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">Jesuit Tradition</a>
+                        <a class="nav-link" href="#">Mission, Vision and Values</a>
+                        <a class="nav-link" href="#">Campus Ministry</a>
+                        <a class="nav-link" href="#">Office of Mission and Ministry</a>
+                        <a class="nav-link" href="#">Magis: A Jesuit Center</a>
+                    </nav>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6>Schools and Colleges</h6>
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">Albers School of Business</a>
+                        <a class="nav-link" href="#">College of Arts and Sciences</a>
+                        <a class="nav-link" href="#">College of Education</a>
+                        <a class="nav-link" href="#">College of Nursing</a>
+                        <a class="nav-link" href="#">College of Science & Engineering</a>
+                        <a class="nav-link" href="#">School of Law</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section id="su-contact-info">
+        <div class="container text-center text-muted py-2">
+            <div class="contact-details small mb-2">
+                Seattle University | 901 12th Avenue | Seattle, WA 98122 | Phone: (206) 296-6000 | Email: admissions@seattleu.edu
+            </div>
+            <img src="https://placehold.co/100x100/fefdfa/800000?text=Logo+phụ" alt="Seattle U Logo 2" class="img-fluid mb-2" style="width: 50px;">
+            <div class="small">
+                &copy; 2023 Seattle University
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

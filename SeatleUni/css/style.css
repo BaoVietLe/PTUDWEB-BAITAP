@@ -1,0 +1,94 @@
+   body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: url('../media/containerBackground.png') repeat-x top center;
+            background-color: #d1cbc2; /* Màu nền dự phòng */
+        }
+
+        /* 1. HEADER DÙNG ẢNH NỀN */
+        .su-header {
+            background: url('../media/headerBackground.jpg') repeat-x top center;
+            padding-top: 5px;
+            padding-bottom: 0px;
+        }
+
+        .utility-links a { color: #ffffff; text-decoration: none; font-size: 11px; font-weight: bold; margin-left: 15px; }
+        .utility-links a:hover { text-decoration: underline; }
+
+        /* Social Icons - có thể dùng chung 1 ảnh sprites hoặc FontAwesome, ở đây giữ nguyên cấu trúc cũ */
+        .social-icons a { display: inline-flex; justify-content: center; align-items: center; width: 18px; height: 18px; background-color: #330000; color: white; text-decoration: none; font-size: 10px; margin-left: 5px; border: 1px solid #7a0000; }
+
+        .search-box { width: 280px; }
+        .search-box input { font-size: 12px; border-radius: 0; padding: 4px 8px; color: #999; }
+        .search-box button { font-size: 12px; border-radius: 0; padding: 4px 15px; background-color: #f8f9fa; border: 1px solid #ccc; color: #333; }
+
+        .main-nav { margin-top: 20px; padding-bottom: 10px; }
+        .main-nav a { color: #ffffff; text-decoration: none; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; }
+        .main-nav a:hover { color: #e0e0e0; }
+
+        /* 2. THANH MENU PHỤ VÀ BACKGROUND DƯỚI HEADER */
+        #su-sec-nav-wrapper {
+            background: url('../media/globalNavigation_SecondLevelWrapper_background.png') repeat-x center;
+            height: 40px;
+        }
+
+        /* 3. PHẦN BANNER CHÍNH CHỨA ẢNH */
+        #hero-section {
+            background: url('../media/homeCenterpieceBackground.png') repeat-x center;
+            padding: 20px 0;
+        }
+
+        /* 4. PHẦN NỘI DUNG (Grid và About) */
+        #content-wrapper {
+            background: url('../media/home-audienceContentWrapperBackground.jpg') repeat-y center;
+            background-color: #e5e1d8;
+        }
+        
+        .student-nav {
+            background: url('../media/home_audienceNavigation_Background.jpg') repeat-x;
+        }
+
+        .student-nav .list-group-item {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            border-radius: 0;
+            color: #fff;
+            font-weight: bold;
+        }
+        .student-nav .list-group-item.active {
+            background: url('../media/home-audienceNavActiveBackground.png') repeat-x;
+            border-color: #660000;
+        }
+
+        .box-title {
+            background: url('../media/homepage_homepageContentBox_leftBackground.png') no-repeat left center;
+            background-color: #6d5b53; /* Màu nâu làm nền */
+            color: white;
+            padding: 5px 15px;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        /* 5. PHẦN FOOTER */
+        #su-footer {
+            background: url('../media/footerBackground.png') repeat-x top center;
+            background-color: #800000;
+            color: #ffffff;
+            padding: 3rem 0;
+        }
+        #su-footer h6 { font-family: Georgia, serif; font-style: italic; font-weight: normal; margin-bottom: 1rem; }
+        #su-footer .nav-link { color: #ffffff; padding-left: 0; font-size: 0.8rem; padding-top: 2px; padding-bottom: 2px; }
+        #su-footer .nav-link:hover { text-decoration: underline; }
+
+        #su-contact-info {
+            background: url('../media/footerCopyrightAndLinksBackground.png') repeat-x top center;
+            background-color: #fefdfa;
+            color: #212529;
+            padding: 1.5rem 0;
+        }
+        
+        /* Chỉnh lại độ rộng container cho giống web gốc */
+        .container-custom {
+            max-width: 960px;
+            margin: 0 auto;
+        }
