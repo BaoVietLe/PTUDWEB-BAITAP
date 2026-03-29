@@ -1,0 +1,39 @@
+   /* CSS tùy chỉnh cho màu sắc và chiều cao */
+        .container-border {
+            border: 2px solid #ddd;
+            padding-bottom: 5px;
+            background-color: white;
+        }
+
+        /* Phần Header & Footer */
+        .header-bg { background-color: #0b5b8c; color: white; }
+        .subheader-bg { background-color: #94b0d4; height: 80px; margin-top: 4px; }
+        .footer-bg { background-color: #0b5b8c; height: 40px; margin-top: 10px; }
+
+        /* Kích thước chung của các ô Tile */
+        .tile { 
+            height: 140px; 
+            width: 100%;
+        }
+
+        /* Màu sắc tương đương cho từng ô */
+        /* Hàng 1 */
+        .bg-l-green { background-color: #bdf235; }
+        .bg-l-blue { background-color: #38bdf8; }
+        .bg-purple-light { background-color: #94acd9; }
+        .bg-purple-dark { background-color: #6a2e92; }
+        .bg-blue-medium { background-color: #268fd0; }
+        
+        /* Hàng 2 */
+        .bg-green { background-color: #07ab51; }
+        .bg-grey-blue { background-color: #9eb1d2; }
+        .bg-red { background-color: #ce0101; }
+        .bg-yellow { background-color: #ffc100; }
+        .bg-m-green { background-color: #a0cd35; }
+        
+        /* Hàng 3 */
+        .bg-orange { background-color: #fccc75; }
+        .bg-grey { background-color: #818181; }
+        .bg-blue-dark { background-color: #004068; }
+        .bg-cyan { background-color: #79c7db; }
+        .bg-teal { background-color: #266b87; }
