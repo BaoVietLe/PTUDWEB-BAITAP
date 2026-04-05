@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 1 - Tuần 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mockup-window">
+        <div class="title-bar">
+            <div class="dots">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+            </div>
+            <div class="title-text">session-1-functions.exe</div>
+        </div>
+
+        <div class="screen-content">
+            <h2>> LÀM VIỆC VỚI HÀM</h2>
+            
+            <div class="form-group">
+                <label for="inputN">// Nhập giá trị biến nguyên dương N:</label>
+                <div class="input-wrapper">
+                    <span>let N =</span>
+                    <input type="number" id="inputN" placeholder="..." min="0">
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button onclick="thucHienTinh(1)">run tính_tổng_1()</button>
+                <button onclick="thucHienTinh(2)">run tính_tổng_2()</button>
+            </div>
+
+            <div id="ketQua" class="console-output">
+                <span class="console-prefix">~</span><span style="color: #666">Chờ lệnh thực thi...</span><span class="blink-cursor"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
